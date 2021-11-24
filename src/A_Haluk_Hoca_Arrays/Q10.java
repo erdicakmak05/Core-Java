@@ -10,9 +10,14 @@ public class Q10 {
 			*(String iniz: "GayetBasarılı"  Diziyi "CoookBasarılı" ye cevirin )
 			*
 			*/
+		String str = "GayetBasarılı";
 		
+		System.out.println(str.indexOf("Basarılı"));
 		
 
+		str = "Cook"+str.substring(str.indexOf("Basarılı"));
+		
+		System.out.println(str);
 		
 	}
 

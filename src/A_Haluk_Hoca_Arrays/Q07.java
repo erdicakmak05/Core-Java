@@ -2,7 +2,8 @@ package A_Haluk_Hoca_Arrays;
 
 public class Q07 {
 
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
         /*
          * write a method that accepts a 2 dimensional array and finds the max value
          * (2 boyutlu bir diziyi kabul eden ve maksimum degeri bulan bir method yazin )
