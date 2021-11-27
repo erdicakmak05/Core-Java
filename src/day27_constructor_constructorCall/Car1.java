@@ -11,6 +11,13 @@ public class Car1 {
 		// atama yapacağımız tum özellikleri parametre olarak yolladik
     	
 	}
+    
+    // ben 5 ozelligi birden degistiren bir constructor urettigimde
+	// java default costructor'i siler
+	// bu durumda daha onceden yazilan ve default constructoru kullanan tum kodlar
+	// coker
+	// bu durumda kodlari düzeltmek icin javanin sildigi default constructor yerine
+	// parametresiz bir constructor olusturmaliyim
 
 	public Car1() {
 		// Boş constructor oluşturduk diğer objelerin hatasını engellemek için

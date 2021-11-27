@@ -1,4 +1,4 @@
-package day26_ForEachLoop_Construckor;
+package day26_ForEachLoop_Constructor;
 
 public class Jeep {
 
