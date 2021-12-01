@@ -23,9 +23,15 @@ public class Car1 {
 		// Boş constructor oluşturduk diğer objelerin hatasını engellemek için
 	}
 
-	public Car1(int i) { // bu satirdaki int km ile class level daki int km farklı scoplardadır
-		
-		km = i;
+
+
+	public Car1(int i) {
+		km=i;
+	}
+
+	public Car1(int i, int j) {
+		yil = i;
+		km = j ;
 	}
 
 	public void hiz(int hiz) {

@@ -23,9 +23,9 @@ public class Orn_Stok_Ekleme_Cıkarma {
 		
 		int tercih = scan.nextInt();
 		
-		if (tercih==1) {
+		/*if (tercih==1) {
 			
-			String urunler[] =  (String) urunEkle(urunSayisi);
+			String urunler =  (String) urunEkle(urunSayisi);
 			System.out.println("Eklenen ürün -->  " + urunler[0]);
 		} else if (tercih==2) {
 			guncelStokGor();
@@ -34,7 +34,7 @@ public class Orn_Stok_Ekleme_Cıkarma {
 		} 
 
 		
-		
+		*/
 		
 
 	}
@@ -60,18 +60,17 @@ public class Orn_Stok_Ekleme_Cıkarma {
 		
 	}
 
-	private static String urunEkle(String urunler[]) {
+	/*private static String urunEkle(int urunSayisi) {
 		//urunSayisi++;
-		for(int i =0 ; i<urunler.length;i++) {
+		for(int i =0 ; i<urunSayisi.length;i++) {
 			Scanner scanner = new Scanner(System.in);
 			System.out.println("Eklemek istediğiniz ürünün ismini giriniz.");
-			urunler[i] = scanner.nextLine();
+			urunSayisi[i] = scanner.nextLine();
 		}
 		
-		return  urunler[urunSayisi];
+		return  urunSayisi[urunSayisi];
 	}
 
-
-	
+*/
 
 }
