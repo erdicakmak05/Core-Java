@@ -12,6 +12,8 @@ public class C01_Exeption {
 			System.out.println("sayilarin bölümü : " + a/b);
 		}catch (ArithmeticException e) {
 			System.out.println("Sıfıra bölüm yapılamaz.");
+			e.printStackTrace();
+			
 		}
 		
 		System.out.println("Görev tamamlandı.");
